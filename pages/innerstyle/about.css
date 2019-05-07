@@ -1,0 +1,31 @@
+
+.main{
+background-color:#aaca4a;
+
+}
+.one{
+  background-color: red;
+height: 40vh;
+}
+
+.player{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+
+}
+.two{
+text-align: center;
+padding: .5rem;
+text-transform: capitalize;
+color:green;
+text-decoration: underline;
+}
+.two p{
+  padding: 2px;
+  font-family: cursive;
+  color: black;
+  text-align: left;
+  margin-left: 3px;
+}
+
