@@ -1,54 +1,147 @@
 .main {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas:
-    "email email email"
-    "phone phone phone"
-    "social social social";
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.email{
+background-color: aliceblue;
+display: flex;
+height: 20vh;
+justify-content: center;
+align-items: center;
+text-transform: uppercase;
+font-size: 0.8rem;
+font-weight: bold;
 }
 
-.email {
-  grid-area: email;
-  padding: 2rem;
-  background-color:#efafaf;
-  text-align: center;
-  font-size: 1.1rem;
-  text-transform: capitalize;
-  color: #1c4e18;
+.phone{
+background-color: blue;
+display: flex;
+height: 20vh;
+justify-content: center;
+align-items: center;
+text-transform: uppercase;
+font-size: 0.8rem;
+font-weight: bold;
 }
-.phone {
-  grid-area: phone;
-  padding: 1rem;
-  background-color:#b9dc50;
-  text-align: center;
-  font-size: 1.1rem;
-  text-transform: capitalize;
-  color: red;
+.social{
+background-color: red;
+display: flex;
+height: 20vh;
+justify-content: space-around;
+align-items: center;
+text-transform: uppercase;
+font-size: 0.8rem;
+font-weight: bold;
 }
-.social {
-  grid-area: social;
-  padding: 1rem;
-  background-color:#42b542;
-  text-align: center;
-  font-size: 1.1rem;
-  text-transform: capitalize;
-  color: white;
+
+@media screen and (min-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+    .email{
+      background-color: aliceblue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      font-weight: bold;
+      }
+      
+      .phone{
+      background-color: blue;
+      display: flex;
+    
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      font-weight: bold;
+      }
+      .social{
+      background-color: red;
+      display: flex;
+    
+      justify-content: space-around;
+      align-items: center;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      font-weight: bold;
+      }
+
 }
-.one{
+
+@media screen and (min-width: 1024px) {
+
+  .email{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
     font-size: 1rem;
-    color:#6260e8;
-    font-family: cursive;
     font-weight: bold;
-}
-.two{
+    }
+    
+    .phone{
+    background-color: blue;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
     font-size: 1rem;
-    color: green;
-    font-family: cursive;
     font-weight: bold;
-}
-.three{
+    }
+    .social{
+    background-color: red;
+    display: flex;
+  
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
     font-size: 1rem;
-    color:#dae626;
-    font-family: cursive;
     font-weight: bold;
+    }
+
+}
+
+@media screen and (min-width: 2560px) {
+
+  .email{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+    }
+    
+    .phone{
+    background-color: blue;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+    }
+    .social{
+    background-color: red;
+    display: flex;
+  
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+    }
+
 }

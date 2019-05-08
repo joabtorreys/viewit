@@ -22,11 +22,9 @@ object-fit: cover;
 
 .two{
   grid-area: two;
-background-color: brown;
-padding: 5px;
+background-color: #d2ff49;
 display: flex;
 flex-direction: column;
-text-align: center;
 justify-content: center;
 align-items: center;
 font-size: 1.4rem;
@@ -34,7 +32,7 @@ text-transform: capitalize;
 }
 
 .heading{
-color: aliceblue;
+color: red;
 
 }
 
@@ -59,19 +57,22 @@ color: aliceblue;
   
   .one{
   grid-area: one;
-  max-width: 50%;
+  background-color: #d2ff49;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   }
   
   .player{
-    width: 100%;
-  height: 100%;
-  object-fit: cover;
+    width: 200px;
+  height: 200px;
 
   }
   
   .two{
     grid-area: two;
-  background-color: brown;
+  background-color: #d2ff49;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,7 +80,7 @@ color: aliceblue;
 
 
   .heading{
-  color: aliceblue;
+  color: red;
   }
   
 
@@ -105,33 +106,33 @@ color: aliceblue;
   
   .one{
   grid-area: one;
-  max-width: 50%;
+  background-color: #d2ff49;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   }
   
   .player{
-width: 100%;
-height: 100%;
-  object-fit: cover;
+    width: 240px;
+  height: 240px;
+
   }
   
   .two{
     grid-area: two;
-  background-color: brown;
+  background-color: #d2ff49;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 2rem;
   }
-  
+
+
   .heading{
-  color: aliceblue;
-  
+  color: red;
   }
   
-
-
-
-
-
 
 }
 
@@ -141,7 +142,20 @@ height: 100%;
     font-size: 41px;
   }
 
+  .player{
+    width: 500px;
+  height: 500px;
 
+  }
+  
+  .two{
+    grid-area: two;
+  background-color: #d2ff49;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.8rem;
+  }
 
 
 }
