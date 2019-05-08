@@ -12,7 +12,7 @@ html{
 
 /* this is the start */
 #container {
-  background-color: aqua;
+  background-color: black;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(10, 10vh);

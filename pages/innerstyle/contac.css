@@ -1,147 +1,96 @@
 .main {
-display: flex;
-flex-direction: column;
-justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.email{
-background-color: aliceblue;
-display: flex;
-height: 20vh;
-justify-content: center;
-align-items: center;
-text-transform: uppercase;
-font-size: 0.8rem;
-font-weight: bold;
+.email {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
-.phone{
-background-color: blue;
-display: flex;
-height: 20vh;
-justify-content: center;
-align-items: center;
-text-transform: uppercase;
-font-size: 0.8rem;
-font-weight: bold;
+.phone {
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+  flex-direction: column;
+  font-weight: bold;
 }
-.social{
-background-color: red;
-display: flex;
-height: 20vh;
-justify-content: space-around;
-align-items: center;
-text-transform: uppercase;
-font-size: 0.8rem;
-font-weight: bold;
+.social {
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 20vh;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 768px) {
   .main {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-    }
+    justify-content: space-around;
+  }
 
-    .email{
-      background-color: aliceblue;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-transform: uppercase;
-      font-size: 0.8rem;
-      font-weight: bold;
-      }
-      
-      .phone{
-      background-color: blue;
-      display: flex;
-    
-      justify-content: center;
-      align-items: center;
-      text-transform: uppercase;
-      font-size: 0.8rem;
-      font-weight: bold;
-      }
-      .social{
-      background-color: red;
-      display: flex;
-    
-      justify-content: space-around;
-      align-items: center;
-      text-transform: uppercase;
-      font-size: 0.8rem;
-      font-weight: bold;
-      }
+  .email {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
 
+  .phone {
+    background-color: black;
+    color: white;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .social {
+    background-color: black;
+    color: white;
+    display: flex;
+flex-direction: column;
+    justify-content: space-around;
+
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-
-  .email{
-    background-color: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-weight: bold;
-    }
-    
-    .phone{
-    background-color: blue;
-    display: flex;
-  
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-weight: bold;
-    }
-    .social{
-    background-color: red;
-    display: flex;
-  
-    justify-content: space-around;
-    align-items: center;
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-weight: bold;
-    }
-
+  html{
+    font-size: 19px;
+  }
 }
 
 @media screen and (min-width: 2560px) {
-
-  .email{
-    background-color: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    font-weight: bold;
-    }
-    
-    .phone{
-    background-color: blue;
-    display: flex;
-  
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    font-weight: bold;
-    }
-    .social{
-    background-color: red;
-    display: flex;
-  
-    justify-content: space-around;
-    align-items: center;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    font-weight: bold;
-    }
-
+  html{
+    font-size: 37px;
+  }
 }
